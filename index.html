@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aster News</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="font-roboto">
+        <div class="container">
+            <div class="flex gap-[52px]">
+                <!-- sidebar -->
+                <div
+                    class="w-[260px] h-[100vh] flex flex-col justify-between overflow-y-auto hidden-scrollbar"
+                >
+                    <div>
+                        <a href="/">
+                            <div
+                                class="flex items-center gap-2 pt-[21px] px-[31px]"
+                            >
+                                <img
+                                    class="w-[35px] h-[29px]"
+                                    src="./assets/img/logo.svg"
+                                    alt="logo"
+                                />
+                                <h2
+                                    class="text-[#0768B5] text-[18px] font-semibold"
+                                >
+                                    Aster News
+                                </h2>
+                            </div></a
+                        >
+
+                        <nav class="mt-[28px] mr-[17px]">
+                            <ul class="flex flex-col">
+                                <a href="#" class="">
+                                    <li
+                                        class="active-nav-item py-[12px] pl-[15px] flex items-center"
+                                    >
+                                        <span class="blue-circle"></span>
+                                        <img
+                                            class="ml-[16px] w-[24px] h-[24px]"
+                                            src="./assets/img/home.svg"
+                                            alt=""
+                                        />
+                                        <span class="ml-[22px]"
+                                            >Top Stories</span
+                                        >
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li
+                                        class="py-[12px] pl-[15px] flex items-center"
+                                    >
+                                        <span class="blue-circle"></span>
+                                        <img
+                                            class="ml-[16px] w-[24px] h-[24px] svg-filter"
+                                            src="./assets/img/globe.svg"
+                                            alt=""
+                                        />
+                                        <span class="ml-[22px]"
+                                            >Around the World</span
+                                        >
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li
+                                        class="py-[12px] pl-[15px] flex items-center"
+                                    >
+                                        <span
+                                            class="w-[6px] h-[6px] bg-[#0768B5] rounded-full opacity-0"
+                                        ></span>
+                                        <img
+                                            class="ml-[16px] w-[24px] h-[24px]"
+                                            src="./assets/img/Business.svg"
+                                            alt=""
+                                        />
+                                        <span class="ml-[22px]">Business</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li
+                                        class="py-[12px] pl-[15px] flex items-center"
+                                    >
+                                        <span
+                                            class="w-[6px] h-[6px] bg-[#0768B5] rounded-full opacity-0"
+                                        ></span>
+                                        <img
+                                            class="ml-[16px] w-[24px] h-[24px]"
+                                            src="./assets/img/Health.svg"
+                                            alt=""
+                                        />
+                                        <span class="ml-[22px]">Health</span>
+                                    </li>
+                                </a>
+
+                                <hr
+                                    class="border-t-[1px] border-[#072D4B ] my-2"
+                                />
+
+                                <a href="#">
+                                    <li
+                                        class="py-[12px] pl-[15px] flex items-center"
+                                    >
+                                        <span
+                                            class="w-[6px] h-[6px] bg-[#0768B5] rounded-full opacity-0"
+                                        ></span>
+                                        <img
+                                            class="ml-[16px] w-[24px] h-[24px]"
+                                            src="./assets/img/Covid.svg"
+                                            alt=""
+                                        />
+                                        <span class="ml-[22px]">Covid 19</span>
+                                    </li>
+                                </a>
+
+                                <hr
+                                    class="border-t-[1px] border-[#072D4B ] my-2"
+                                />
+
+                                <a href="#">
+                                    <li
+                                        class="py-[12px] pl-[15px] flex items-center"
+                                    >
+                                        <span
+                                            class="w-[6px] h-[6px] bg-[#0768B5] rounded-full opacity-0"
+                                        ></span>
+                                        <img
+                                            class="ml-[16px] w-[24px] h-[24px]"
+                                            src="./assets/img/Entertainment.svg"
+                                            alt=""
+                                        />
+                                        <span class="ml-[22px]"
+                                            >Entertainment</span
+                                        >
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li
+                                        class="py-[12px] pl-[15px] flex items-center"
+                                    >
+                                        <span
+                                            class="w-[6px] h-[6px] bg-[#0768B5] rounded-full opacity-0"
+                                        ></span>
+                                        <img
+                                            class="ml-[16px] w-[24px] h-[24px]"
+                                            src="./assets/img/Sports.svg"
+                                            alt=""
+                                        />
+                                        <span class="ml-[22px]">Sports</span>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li
+                                        class="py-[12px] pl-[15px] flex items-center"
+                                    >
+                                        <span
+                                            class="w-[6px] h-[6px] bg-[#0768B5] rounded-full opacity-0"
+                                        ></span>
+                                        <img
+                                            class="ml-[16px] w-[24px] h-[24px]"
+                                            src="./assets/img/Discussion.svg"
+                                            alt=""
+                                        />
+                                        <span class="ml-[22px]"
+                                            >Discussion</span
+                                        >
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li
+                                        class="py-[12px] pl-[15px] flex items-center"
+                                    >
+                                        <span
+                                            class="w-[6px] h-[6px] bg-[#0768B5] rounded-full opacity-0"
+                                        ></span>
+                                        <img
+                                            class="ml-[16px] w-[24px] h-[24px]"
+                                            src="./assets/img/Notification.svg"
+                                            alt=""
+                                        />
+                                        <span class="ml-[22px]"
+                                            >Notification</span
+                                        >
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li
+                                        class="py-[12px] pl-[15px] flex items-center"
+                                    >
+                                        <span
+                                            class="w-[6px] h-[6px] bg-[#0768B5] rounded-full opacity-0"
+                                        ></span>
+                                        <img
+                                            class="ml-[16px] w-[24px] h-[24px]"
+                                            src="./assets/img/settings.svg"
+                                            alt=""
+                                        />
+                                        <span class="ml-[22px]">
+                                            News Feed Settings</span
+                                        >
+                                    </li>
+                                </a>
+                            </ul>
+                        </nav>
+
+                        <div
+                            class="mt-[120px] bg-[#2F9FF8] p-[21px] flex flex-col rounded-[4px] gap-[13px] mx-[16px] text-[#FFFFFF]"
+                        >
+                            <div class="flex justify-between">
+                                <img
+                                    class="w-[24px]"
+                                    src="./assets/img/gift.svg"
+                                    alt=""
+                                />
+                                <span>Subscribe to Premium</span>
+                            </div>
+
+                            <div class="flex justify-between">
+                                <div class="inline-block">
+                                    <span class="text-[30px] font-semibold"
+                                        >$8</span
+                                    ><span class="text-[15px]">/m</span>
+                                </div>
+                                <button
+                                    class="bg-[#0768B5] py-[10px] px-[27px] rounded-[4px]"
+                                >
+                                    Upgrade
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- main -->
+                <main
+                    class="flex-1 h-[100vh] overflow-y-auto hidden-scrollbar pr-[34px]"
+                >
+                    <header
+                        class="flex justify-between items-center mt-[15px] h-[46px]"
+                    >
+                        <div
+                            class="flex-1 h-full bg-[#ECF5F8] rounded-[4px] flex items-center mr-[20px]"
+                        >
+                            <input
+                                class="w-full h-full bg-transparent outline-none px-[16px] text-[#072D4B] placeholder:text-[#072D4B] placeholder:opacity-50"
+                                type="search"
+                                placeholder="Search for news..."
+                            />
+                            <!-- search icon -->
+                            <i class="fa-solid fa-magnifying-glass pr-2"></i>
+                        </div>
+
+                        <button
+                            class="w-[254px] mr-[45px] h-full border border-[#072D4B] rounded-[4px] px-2"
+                        >
+                            Latest news on
+                            <span class="text-[#2F9FF8] font-medium"
+                                >Covid-19</span
+                            >
+                            <!-- icon arrow to right -->
+                            <i
+                                class="fa-solid fa-arrow-right ml-2 size-[18px]"
+                            ></i>
+                        </button>
+
+                        <div class="w-[286px] flex justify-end">
+                            <button
+                                class="w-[156px] flex items-center justify-between"
+                            >
+                                <div class="inline-block">
+                                    <!-- user icon -->
+                                    <i
+                                        class="fa-regular fa-user size-[24px] mr-[3px]"
+                                    ></i>
+                                    <span>My Profile</span>
+                                </div>
+                                <!-- icon arrow down -->
+                                <i
+                                    class="fa-solid fa-chevron-down ml-2 size-[18px]"
+                                ></i>
+                            </button>
+                        </div>
+                    </header>
+
+                    <h1
+                        class="text-[20px] line-height-[24px] font-semibold mt-10"
+                    >
+                        Top Stories for you
+                    </h1>
+
+                    <!-- content -->
+                    <div class="flex mt-7">
+                        <div class="flex-1">
+                            <!-- filter -->
+                            <div
+                                class="flex flex-1 justify-between align-center max-h-[40px]"
+                            >
+                                <button class="filter-item active">All</button>
+                                <button class="filter-item">Android</button>
+                                <button class="filter-item">Cricket</button>
+                                <button class="filter-item">iPhone</button>
+                                <button class="filter-item">Google</button>
+                                <button class="filter-item">
+                                    Nano Technology
+                                </button>
+                                <button class="filter-item">
+                                    Mental Health
+                                </button>
+                                <button class="bg-transparent">
+                                    <!-- icon ... -->
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </button>
+                            </div>
+
+                            <!-- main news -->
+                            <div class="mt-10 flex bg-white p-4 h-max">
+                                <div class="px-2 flex flex-col">
+                                    <div class="line-clamp-5">
+                                        <h4
+                                            class="text-[18px] font-semibold line-height-[24px]"
+                                        >
+                                            Samsung Galaxy F22 launched in
+                                            India: Price, features, other
+                                            details
+                                        </h4>
+                                        <p
+                                            class="text-[14px] font-medium mt-3 opacity-60 line-height-[24px]"
+                                        >
+                                            Samsung Galaxy F22 has been launched
+                                            in India. The new smartphone has
+                                            been priced in the mid-range
+                                            segment. The new smartphone is
+                                            powered by a MediaTek chipset and
+                                            features a high refresh rate AMOLED
+                                            display. Samsung Galaxy F22 has been
+                                            launched in India. The new
+                                            smartphone has been priced in the
+                                            mid-range segment. The new
+                                            smartphone is powered by a MediaTek
+                                            chipset and features a high refresh
+                                            rate AMOLED display.
+                                        </p>
+                                    </div>
+                                    <div class="flex mt-auto text-xs">
+                                        <div class="flex mt-4">
+                                            <span
+                                                class="inline-block text-3 opacity-40"
+                                            >
+                                                <span>The Mint</span>
+                                                <span class="ml-5"
+                                                    >15 mins ago</span
+                                                >
+                                            </span>
+                                            <div
+                                                class="ml-20 text-[#0768B5] flex align-center gap-6"
+                                            >
+                                                <div class="flex">
+                                                    <img
+                                                        src="./assets/img/share.svg"
+                                                        alt=""
+                                                    />
+                                                    <span class="ml-2"
+                                                        >Share</span
+                                                    >
+                                                </div>
+                                                <div class="flex">
+                                                    <img
+                                                        src="./assets/img/pocket.svg"
+                                                        alt=""
+                                                    />
+                                                    <span class="ml-2"
+                                                        >Read Later</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="w-[25%] ml-7 shrink-0 rounded-[4px] overflow-hidden"
+                                >
+                                    <img
+                                        class="h-full object-cover"
+                                        src="./assets/img/GalaxyF22.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+
+                            <!-- news -->
+                            <div class="grid grid-cols-2 gap-4 mt-1 gap-5">
+                                <!-- item -->
+                                <div class="flex bg-white p-4 h-max">
+                                    <div class="px-2 flex flex-col">
+                                        <div class="flex">
+                                            <div class="line-clamp-5">
+                                                <h4
+                                                    class="text-[18px] font-semibold line-height-[24px]"
+                                                >
+                                                    Instagram working on
+                                                    ‘Exclusive Stories’ for
+                                                    subscribers
+                                                </h4>
+                                                <p
+                                                    class="text-[14px] font-medium mt-3 opacity-60 line-height-[24px]"
+                                                >
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="w-[40%] ml-3 shrink-0 rounded-[4px] overflow-hidden"
+                                            >
+                                                <img
+                                                    class="h-full object-cover"
+                                                    src="https://images.hindustantimes.com/tech/img/2021/07/05/960x540/2021-05-10T150732Z_17143371_RC23DN9YYAMN_RTRMADP_3_FACEBOOK-INSTAGRAM-KIDS_1625310528275_1625516732859.JPG"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="flex mt-auto text-xs">
+                                            <div
+                                                class="flex justify-between w-full mt-4"
+                                            >
+                                                <span
+                                                    class="inline-block text-3 opacity-40"
+                                                >
+                                                    <span>The Mint</span>
+                                                    <span class="ml-5"
+                                                        >15 mins ago</span
+                                                    >
+                                                </span>
+                                                <div
+                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                >
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/share.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Share</span
+                                                        >
+                                                    </div>
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/pocket.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Read Later</span
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- item -->
+                                <div class="flex bg-white p-4 h-max">
+                                    <div class="px-2 flex flex-col">
+                                        <div class="flex">
+                                            <div class="line-clamp-5">
+                                                <h4
+                                                    class="text-[18px] font-semibold line-height-[24px]"
+                                                >
+                                                    Battlegrounds Mobile India
+                                                    iOS release date
+                                                </h4>
+                                                <p
+                                                    class="text-[14px] font-medium mt-3 opacity-60 line-height-[24px]"
+                                                >
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="w-[40%] ml-3 shrink-0 rounded-[4px] overflow-hidden"
+                                            >
+                                                <img
+                                                    class="h-full object-cover"
+                                                    src="https://images.hindustantimes.com/tech/img/2021/08/09/960x540/PUBG-Mobile-Tencent-Ban_1625203763846_1628480240427.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="flex mt-auto text-xs">
+                                            <div
+                                                class="flex justify-between w-full mt-4"
+                                            >
+                                                <span
+                                                    class="inline-block text-3 opacity-40"
+                                                >
+                                                    <span>The Mint</span>
+                                                    <span class="ml-5"
+                                                        >15 mins ago</span
+                                                    >
+                                                </span>
+                                                <div
+                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                >
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/share.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Share</span
+                                                        >
+                                                    </div>
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/pocket.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Read Later</span
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- item -->
+                                <div class="flex bg-white p-4 h-max">
+                                    <div class="px-2 flex flex-col">
+                                        <div class="flex">
+                                            <div class="line-clamp-5">
+                                                <h4
+                                                    class="text-[18px] font-semibold line-height-[24px]"
+                                                >
+                                                    Petrol, diesel prices - July
+                                                    6: Fuel prices unchanged
+                                                    after touching record high
+                                                </h4>
+                                                <p
+                                                    class="text-[14px] font-medium mt-3 opacity-60 line-height-[24px]"
+                                                >
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="flex mt-auto text-xs">
+                                            <div
+                                                class="flex justify-between w-full mt-4"
+                                            >
+                                                <span
+                                                    class="inline-block text-3 opacity-40"
+                                                >
+                                                    <span>The Mint</span>
+                                                    <span class="ml-5"
+                                                        >15 mins ago</span
+                                                    >
+                                                </span>
+                                                <div
+                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                >
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/share.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Share</span
+                                                        >
+                                                    </div>
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/pocket.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Read Later</span
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- item -->
+                                <div class="flex bg-white p-4 h-max">
+                                    <div class="px-2 flex flex-col">
+                                        <div class="flex">
+                                            <div class="line-clamp-5">
+                                                <h4
+                                                    class="text-[18px] font-semibold line-height-[24px]"
+                                                >
+                                                    Android smartphone users
+                                                    alert! Remove these 9 apps
+                                                    now
+                                                </h4>
+                                                <p
+                                                    class="text-[14px] font-medium mt-3 opacity-60 line-height-[24px]"
+                                                >
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="w-[40%] ml-3 shrink-0 rounded-[4px] overflow-hidden"
+                                            >
+                                                <img
+                                                    class="h-full object-cover"
+                                                    src="https://images.hindustantimes.com/tech/img/2021/08/15/960x540/cyber-security-2765707_1920_1626094469101_1629008314381.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="flex mt-auto text-xs">
+                                            <div
+                                                class="flex justify-between w-full mt-4"
+                                            >
+                                                <span
+                                                    class="inline-block text-3 opacity-40"
+                                                >
+                                                    <span>The Mint</span>
+                                                    <span class="ml-5"
+                                                        >15 mins ago</span
+                                                    >
+                                                </span>
+                                                <div
+                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                >
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/share.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Share</span
+                                                        >
+                                                    </div>
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/pocket.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Read Later</span
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- item -->
+                                <div class="flex bg-white p-4 h-max">
+                                    <div class="px-2 flex flex-col">
+                                        <div class="flex">
+                                            <div class="line-clamp-5">
+                                                <h4
+                                                    class="text-[18px] font-semibold line-height-[24px]"
+                                                >
+                                                    How to install Windows 11 on
+                                                    almost any unsupported PC
+                                                </h4>
+                                                <p
+                                                    class="text-[14px] font-medium mt-3 opacity-60 line-height-[24px]"
+                                                >
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="w-[40%] ml-3 shrink-0 rounded-[4px] overflow-hidden"
+                                            >
+                                                <img
+                                                    class="h-full object-cover"
+                                                    src="https://pureinfotech.com/wp-content/uploads/2021/09/windows-11-install-unsupported-state_hero.jpg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="flex mt-auto text-xs">
+                                            <div
+                                                class="flex justify-between w-full mt-4"
+                                            >
+                                                <span
+                                                    class="inline-block text-3 opacity-40"
+                                                >
+                                                    <span>The Mint</span>
+                                                    <span class="ml-5"
+                                                        >15 mins ago</span
+                                                    >
+                                                </span>
+                                                <div
+                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                >
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/share.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Share</span
+                                                        >
+                                                    </div>
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/pocket.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Read Later</span
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- item -->
+                                <div class="flex bg-white p-4 h-max">
+                                    <div class="px-2 flex flex-col">
+                                        <div class="flex">
+                                            <div class="line-clamp-5">
+                                                <h4
+                                                    class="text-[18px] font-semibold line-height-[24px]"
+                                                >
+                                                    This charging feature from
+                                                    Android phones may come to
+                                                    iPhone 13
+                                                </h4>
+                                                <p
+                                                    class="text-[14px] font-medium mt-3 opacity-60 line-height-[24px]"
+                                                >
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="w-[40%] ml-3 shrink-0 rounded-[4px] overflow-hidden"
+                                            >
+                                                <img
+                                                    class="h-full object-cover"
+                                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9kGs6-4eRgcKpgBc1xpJlnqpBxZ2V_gOv1w&s"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="flex mt-auto text-xs">
+                                            <div
+                                                class="flex justify-between w-full mt-4"
+                                            >
+                                                <span
+                                                    class="inline-block text-3 opacity-40"
+                                                >
+                                                    <span>The Mint</span>
+                                                    <span class="ml-5"
+                                                        >15 mins ago</span
+                                                    >
+                                                </span>
+                                                <div
+                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                >
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/share.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Share</span
+                                                        >
+                                                    </div>
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/pocket.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Read Later</span
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- follows -->
+                            <div class="mt-10 flex justify-between">
+                                <h4
+                                    class="flex gap-3 line-height-5 font-size-4 font-semibold"
+                                >
+                                    <span>
+                                        <img
+                                            src="./assets/img/feather.svg"
+                                            alt=""
+                                        />
+                                    </span>
+                                    <span>Creators you should follow</span>
+                                </h4>
+
+                                <!-- icons arrows left right -->
+                                <div class="flex gap-3 text-[20px]">
+                                    <button>
+                                        <i
+                                            class="fa-solid fa-arrow-left opacity-20"
+                                        ></i>
+                                    </button>
+                                    <button>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- users -->
+                            <div class="flex gap-4 mt-4">
+                                <!-- user card -->
+                                <div
+                                    class="flex flex-col justify-between items-center flex-1 p-3 h-[185px] bg-white rounded-[4px]"
+                                >
+                                    <img
+                                        class="rounded-full w-[50px] h-[50px] object-cover"
+                                        src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dXNlciUyMGZhY2V8ZW58MHx8MHx8fDA%3D"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="flex flex-col font-semibold font-size-[14px]"
+                                    >
+                                        <h4 class="font-size-[14px]">
+                                            Shan Teylor
+                                        </h4>
+                                        <p class="font-size-[14px] opacity-40">
+                                            Tech Mint
+                                        </p>
+                                    </div>
+                                    <button
+                                        class="w-full bg-[#2F9FF8] py-2 text-white rounded-[4px]"
+                                    >
+                                        Follow
+                                    </button>
+                                </div>
+
+                                <!-- user card -->
+                                <div
+                                    class="flex flex-col justify-between items-center flex-1 p-3 h-[185px] bg-white rounded-[4px]"
+                                >
+                                    <img
+                                        class="rounded-full w-[50px] h-[50px] object-cover"
+                                        src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dXNlciUyMGZhY2V8ZW58MHx8MHx8fDA%3D"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="flex flex-col font-semibold font-size-[14px]"
+                                    >
+                                        <h4 class="font-size-[14px]">
+                                            Shan Teylor
+                                        </h4>
+                                        <p class="font-size-[14px] opacity-40">
+                                            Tech Mint
+                                        </p>
+                                    </div>
+                                    <button
+                                        class="w-full bg-[#2F9FF8] py-2 text-white rounded-[4px]"
+                                    >
+                                        Follow
+                                    </button>
+                                </div>
+
+                                <!-- user card -->
+                                <div
+                                    class="flex flex-col justify-between items-center flex-1 p-3 h-[185px] bg-white rounded-[4px]"
+                                >
+                                    <img
+                                        class="rounded-full w-[50px] h-[50px] object-cover"
+                                        src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dXNlciUyMGZhY2V8ZW58MHx8MHx8fDA%3D"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="flex flex-col font-semibold font-size-[14px]"
+                                    >
+                                        <h4 class="font-size-[14px]">
+                                            Shan Teylor
+                                        </h4>
+                                        <p class="font-size-[14px] opacity-40">
+                                            Tech Mint
+                                        </p>
+                                    </div>
+                                    <button
+                                        class="w-full bg-[#2F9FF8] py-2 text-white rounded-[4px]"
+                                    >
+                                        Follow
+                                    </button>
+                                </div>
+
+                                <!-- user card -->
+                                <div
+                                    class="flex flex-col justify-between items-center flex-1 p-3 h-[185px] bg-white rounded-[4px]"
+                                >
+                                    <img
+                                        class="rounded-full w-[50px] h-[50px] object-cover"
+                                        src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dXNlciUyMGZhY2V8ZW58MHx8MHx8fDA%3D"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="flex flex-col font-semibold font-size-[14px]"
+                                    >
+                                        <h4 class="font-size-[14px]">
+                                            Shan Teylor
+                                        </h4>
+                                        <p class="font-size-[14px] opacity-40">
+                                            Tech Mint
+                                        </p>
+                                    </div>
+                                    <button
+                                        class="w-full bg-[#2F9FF8] py-2 text-white rounded-[4px]"
+                                    >
+                                        Follow
+                                    </button>
+                                </div>
+
+                                <!-- user card -->
+                                <div
+                                    class="flex flex-col justify-between items-center flex-1 p-3 h-[185px] bg-white rounded-[4px]"
+                                >
+                                    <img
+                                        class="rounded-full w-[50px] h-[50px] object-cover"
+                                        src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dXNlciUyMGZhY2V8ZW58MHx8MHx8fDA%3D"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="flex flex-col font-semibold font-size-[14px]"
+                                    >
+                                        <h4 class="font-size-[14px]">
+                                            Shan Teylor
+                                        </h4>
+                                        <p class="font-size-[14px] opacity-40">
+                                            Tech Mint
+                                        </p>
+                                    </div>
+                                    <button
+                                        class="w-full bg-[#2F9FF8] py-2 text-white rounded-[4px]"
+                                    >
+                                        Follow
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- more news -->
+                            <div
+                                class="grid grid-cols-2 gap-4 mt-1 gap-5 mt-11"
+                            >
+                                <!-- item -->
+                                <div class="flex bg-white p-4 h-max">
+                                    <div class="px-2 flex flex-col">
+                                        <div class="flex">
+                                            <div class="line-clamp-5">
+                                                <h4
+                                                    class="text-[18px] font-semibold line-height-[24px]"
+                                                >
+                                                    INDvENG Tests to be played
+                                                    in front of crowd
+                                                </h4>
+                                                <p
+                                                    class="text-[14px] font-medium mt-3 opacity-60 line-height-[24px]"
+                                                >
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="w-[40%] ml-3 shrink-0 rounded-[4px] overflow-hidden"
+                                            >
+                                                <img
+                                                    class="h-full object-cover"
+                                                    src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SU5EdkVORyUyMFRlc3RzJTIwdG8lMjBiZSUyMHBsYXllZCUyMGluJTIwZnJvbnQlMjBvZiUyMGNyb3dkfGVufDB8fDB8fHww"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="flex mt-auto text-xs">
+                                            <div
+                                                class="flex justify-between w-full mt-4"
+                                            >
+                                                <span
+                                                    class="inline-block text-3 opacity-40"
+                                                >
+                                                    <span>The Mint</span>
+                                                    <span class="ml-5"
+                                                        >15 mins ago</span
+                                                    >
+                                                </span>
+                                                <div
+                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                >
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/share.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Share</span
+                                                        >
+                                                    </div>
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/pocket.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Read Later</span
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- item -->
+                                <div class="flex bg-white p-4 h-max">
+                                    <div class="px-2 flex flex-col">
+                                        <div class="flex">
+                                            <div class="line-clamp-5">
+                                                <h4
+                                                    class="text-[18px] font-semibold line-height-[24px]"
+                                                >
+                                                    Biden's cold response to
+                                                    Afghanistan's collapse to
+                                                    have far consequences
+                                                </h4>
+                                                <p
+                                                    class="text-[14px] font-medium mt-3 opacity-60 line-height-[24px]"
+                                                >
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="w-[40%] ml-3 shrink-0 rounded-[4px] overflow-hidden"
+                                            >
+                                                <img
+                                                    class="h-full object-cover"
+                                                    src="https://plus.unsplash.com/premium_photo-1697730097471-27814de23a1f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QmlkZW4ncyUyMGNvbGQlMjByZXNwb25zZSUyMHRvJTIwQWZnaGFuaXN0YW4ncyUyMGNvbGxhcHNlJTIwdG8lMjBoYXZlJTIwZmFyJTIwY29uc2VxdWVuY2VzfGVufDB8fDB8fHww"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="flex mt-auto text-xs">
+                                            <div
+                                                class="flex justify-between w-full mt-4"
+                                            >
+                                                <span
+                                                    class="inline-block text-3 opacity-40"
+                                                >
+                                                    <span>The Mint</span>
+                                                    <span class="ml-5"
+                                                        >15 mins ago</span
+                                                    >
+                                                </span>
+                                                <div
+                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                >
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/share.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Share</span
+                                                        >
+                                                    </div>
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/pocket.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Read Later</span
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- item -->
+                                <div class="flex bg-white p-4 h-max">
+                                    <div class="px-2 flex flex-col">
+                                        <div class="flex">
+                                            <div class="line-clamp-5">
+                                                <h4
+                                                    class="text-[18px] font-semibold line-height-[24px]"
+                                                >
+                                                    Petrol, diesel prices - July
+                                                    6: Fuel prices unchanged
+                                                    after touching record high
+                                                </h4>
+                                                <p
+                                                    class="text-[14px] font-medium mt-3 opacity-60 line-height-[24px]"
+                                                >
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="flex mt-auto text-xs">
+                                            <div
+                                                class="flex justify-between w-full mt-4"
+                                            >
+                                                <span
+                                                    class="inline-block text-3 opacity-40"
+                                                >
+                                                    <span>The Mint</span>
+                                                    <span class="ml-5"
+                                                        >15 mins ago</span
+                                                    >
+                                                </span>
+                                                <div
+                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                >
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/share.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Share</span
+                                                        >
+                                                    </div>
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/pocket.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Read Later</span
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- item -->
+                                <div class="flex bg-white p-4 h-max">
+                                    <div class="px-2 flex flex-col">
+                                        <div class="flex">
+                                            <div class="line-clamp-5">
+                                                <h4
+                                                    class="text-[18px] font-semibold line-height-[24px]"
+                                                >
+                                                    Hardik Pandya 'is bowling
+                                                    and it is a very good sign'
+                                                    - Suryakumar
+                                                </h4>
+                                                <p
+                                                    class="text-[14px] font-medium mt-3 opacity-60 line-height-[24px]"
+                                                >
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                    Samsung Galaxy F22 has been
+                                                    launched in India. The new
+                                                    smartphone has been priced
+                                                    in the mid-range segment.
+                                                    The new smartphone is
+                                                    powered by a MediaTek
+                                                    chipset and features a high
+                                                    refresh rate AMOLED display.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="w-[40%] ml-3 shrink-0 rounded-[4px] overflow-hidden"
+                                            >
+                                                <img
+                                                    class="h-full object-cover"
+                                                    src="https://plus.unsplash.com/premium_photo-1679654236469-2006411291ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8SGFyZGlrJTIwUGFuZHlhJTIwJ2lzJTIwYm93bGluZyUyMGFuZCUyMGl0JTIwaXMlMjBhJTIwdmVyeSUyMGdvb2QlMjBzaWduJyUyMCUyMCUyMFN1cnlha3VtYXJ8ZW58MHx8MHx8fDA%3D"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="flex mt-auto text-xs">
+                                            <div
+                                                class="flex justify-between w-full mt-4"
+                                            >
+                                                <span
+                                                    class="inline-block text-3 opacity-40"
+                                                >
+                                                    <span>The Mint</span>
+                                                    <span class="ml-5"
+                                                        >15 mins ago</span
+                                                    >
+                                                </span>
+                                                <div
+                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                >
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/share.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Share</span
+                                                        >
+                                                    </div>
+                                                    <div class="flex">
+                                                        <img
+                                                            src="./assets/img/pocket.svg"
+                                                            alt=""
+                                                        />
+                                                        <span class="ml-2"
+                                                            >Read Later</span
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- show more button -->
+                             <div class="flex justify-center mt-12">
+                                <button class="px-5 py-2 border border-gray-300 rounded">Show More</button>
+                             </div>
+
+                            <!-- footer -->
+                            <div
+                                class="mt-20 w-full h-[50px] border-t border-gray-300 flex items-center justify-between opacity-40 text-[12px]">
+                                <p>© Aster News, 2022</p>
+
+                                <div class="flex gap-10">
+                                    <span>Privacy Policy</span>
+                                    <span>Terms of Service</span>
+                                </div>
+                            </div>    
+                        </div>
+
+                        <!-- aside -->
+                        <aside
+                            class="w-[286px] ml-[52px] h-[100vh] flex flex-col justify-between  sticky top-1 overflow-hidden"
+                        >
+                            <div
+                                class="flex-1 overflow-y-auto hidden-scrollbar flex flex-col gap-4"
+                            >
+                                <!-- card 1-->
+                                <div class="bg-white p-4 h-max rounded-[4px]">
+                                    <!-- header -->
+                                    <div
+                                        class="flex items-center justify-between"
+                                    >
+                                        <span>Coimbatore, Tamil Nadu</span>
+                                        <span>
+                                            <img
+                                                src="./assets/img/crosshair.svg"
+                                                alt=""
+                                            />
+                                        </span>
+                                    </div>
+
+                                    <hr
+                                        class="border-t-[1px] border-[#072D4B ] my-2"
+                                    />
+
+                                    <!-- body -->
+                                    <div
+                                        class="flex items-center justify-between"
+                                    >
+                                        <div class="flex flex-col mt-3">
+                                            <div>Sunny</div>
+                                            <div class="text-[30px] font-bold">
+                                                31°c
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img
+                                                class="w-[52px] h-[52px]"
+                                                src="./assets/img/sun.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <div class="text-[12px] mt-3">
+                                        <span>Celsius</span>
+                                        <span class="ml-3 opacity-30"
+                                            >Fahrenheit</span
+                                        >
+                                    </div>
+                                </div>
+
+                                <!-- card 2-->
+                                <div class="bg-white p-4 h-max rounded-[4px]">
+                                    <!-- header -->
+                                    <div class="flex items-center">
+                                        <span>
+                                            <img
+                                                class="w-[24px] h-[24px]"
+                                                src="./assets/img/feather.svg"
+                                                alt=""
+                                            />
+                                        </span>
+                                        <span class="ml-3"
+                                            >Become a Story Writer</span
+                                        >
+                                    </div>
+
+                                    <!-- body -->
+                                    <div
+                                        class="flex items-center justify-between mt-3"
+                                    >
+                                        <div
+                                            class="inline-block flex-1 text-[12px] opacity-60"
+                                        >
+                                            Contribute stories and start
+                                            earning.
+                                        </div>
+                                        <a
+                                            href="#"
+                                            class="text-[#2F9FF8] border border-blue-500 inline-block px-4 py-2 rounded-[4px]"
+                                        >
+                                            Know More
+                                        </a>
+                                    </div>
+
+                                    <div class="text-[12px] mt-3">
+                                        <span>Celsius</span>
+                                        <span class="ml-3 opacity-30"
+                                            >Fahrenheit</span
+                                        >
+                                    </div>
+                                </div>
+
+                                <!-- card 3-->
+                                <div class="bg-white p-4 h-max rounded-[4px]">
+                                    <!-- header -->
+                                    <div
+                                        class="flex items-center justify-between"
+                                    >
+                                        <div class="flex">
+                                            <img
+                                                src="./assets/img/file-text.svg"
+                                                alt=""
+                                            />
+                                            <span class="ml-3"
+                                                >Quick Bytes</span
+                                            >
+                                        </div>
+                                        <span
+                                            class="flex gap-3 text-[24px] text-[#2F9FF8] cursor-pointer"
+                                        >
+                                            <i
+                                                class="fa-solid fa-circle-arrow-left opacity-20"
+                                            ></i>
+                                            <i
+                                                class="fa-solid fa-circle-arrow-right"
+                                            ></i>
+                                        </span>
+                                    </div>
+
+                                    <hr
+                                        class="border-t-[1px] border-[#072D4B ] my-2"
+                                    />
+
+                                    <!-- body -->
+                                    <div
+                                        class="flex flex-col mt-3 text-[12px] opacity-60 leading-5"
+                                    >
+                                        <p>
+                                            The price of petrol remained
+                                            unchanged on July 6 after reaching a
+                                            new record high on the previous day,
+                                            according to a price notification by
+                                            state-owned fuel retailers. The
+                                            diesel price remained stable for the
+                                            second consecutive day.
+                                        </p>
+                                        <br />
+                                        <p>
+                                            The increase on July 5, 35th in two
+                                            months, took the petrol price in
+                                            Delhi closer to Rs 100 per
+                                            litre-mark. The petrol price in the
+                                            national capital soared to Rs 99.9 a
+                                            litre and diesel was priced at Rs
+                                            89.4 per litre, according to Bharat
+                                            Petroleum's price listing.
+                                        </p>
+                                    </div>
+
+                                    <div
+                                        class="mt-3 flex justify-center items-center"
+                                    >
+                                        <div
+                                            class="text-[2px] flex gap-3 opacity-100"
+                                        >
+                                            <!-- dot icons -->
+                                            <i
+                                                class="fa-solid text-[#2F9FF8] text-[4px] fa-circle"
+                                            ></i>
+                                            <i
+                                                class="fa-solid fa-circle opacity-30"
+                                            ></i>
+                                            <i
+                                                class="fa-solid fa-circle opacity-30"
+                                            ></i>
+                                            <i
+                                                class="fa-solid fa-circle opacity-30"
+                                            ></i>
+                                            <i
+                                                class="fa-solid fa-circle opacity-30"
+                                            ></i>
+                                            <i
+                                                class="fa-solid fa-circle opacity-30"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- card 4-->
+                                <div class="bg-white p-4 h-max rounded-[4px] mb-40">
+                                    <!-- header -->
+                                    <div>Subscribe to our newsletter</div>
+
+                                    <!-- body -->
+                                    <div>
+                                        <input
+                                            class="w-full h-[40px] mt-3 rounded-[4px] px-3 bg-[#F4F9F8] placeholder:text-[#072D4B] outline-none border  border-gray-300 placeholder:opacity-50"
+                                            type="text"
+                                            placeholder="Enter Email"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </main>
+
+                <!-- aside -->
+                <!-- <aside
+                    class="w-[286px] h-[100vh] flex flex-col justify-between overflow-y-auto hidden-scrollbar bg-green-200"
+                ></aside> -->
+            </div>
+        </div>
+    </body>
+</html>
