@@ -56,8 +56,10 @@ nav li:active span:first-child {
     padding-bottom: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    width: max-content;
     border-radius: 9999px;
     background: #ffffff;
+    box-shadow: 0px 2px 20px 0px #0000000A;
 }
 .filter-item.active {
     background: #2F9FF8;
