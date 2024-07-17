@@ -53,14 +53,13 @@ nav li:active span:first-child {
 }
 
 .filter-item {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    font-size: 15px;
+    padding: 6px 16px;
     width: max-content;
     border-radius: 9999px;
     background: #ffffff;
     box-shadow: 0px 2px 20px 0px #0000000A;
+    white-space: nowrap;
 }
 .filter-item.active {
     background: #2F9FF8;
