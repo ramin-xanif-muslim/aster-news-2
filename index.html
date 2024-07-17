@@ -7,8 +7,8 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="font-roboto">
-        <div class="container">
+    <body class="font-roboto w-full">
+        <div class="container mx-auto">
             <div class="flex gap-[52px]">
                 <!-- sidebar -->
                 <div
@@ -295,7 +295,7 @@
                         <div class="flex-1">
                             <!-- filter -->
                             <div
-                                class="flex flex-1 justify-between align-center max-h-[40px]"
+                                class="flex flex-1 align-center max-h-[40px] gap-[10px] w-full"
                             >
                                 <button class="filter-item active">All</button>
                                 <button class="filter-item">Android</button>
@@ -308,7 +308,10 @@
                                 <button class="filter-item">
                                     Mental Health
                                 </button>
-                                <button class="bg-transparent">
+                                <button class="filter-item">
+                                    Mental Health
+                                </button>
+                                <button class="bg-transparent ml-auto">
                                     <!-- icon ... -->
                                     <i class="fa-solid fa-ellipsis"></i>
                                 </button>
@@ -343,8 +346,8 @@
                                             rate AMOLED display.
                                         </p>
                                     </div>
-                                    <div class="flex mt-auto text-xs">
-                                        <div class="flex mt-4">
+                                    <div class="flex  mt-auto text-xs">
+                                        <div class="flex justify-between w-full mt-4">
                                             <span
                                                 class="inline-block text-3 opacity-40"
                                             >
@@ -354,10 +357,11 @@
                                                 >
                                             </span>
                                             <div
-                                                class="ml-20 text-[#0768B5] flex align-center gap-6"
+                                                class="text-[#0768B5] flex align-center gap-6"
                                             >
-                                                <div class="flex">
+                                                <div class="flex align-center">
                                                     <img
+                                                        class="size-[16px]"
                                                         src="./assets/img/share.svg"
                                                         alt=""
                                                     />
@@ -365,8 +369,9 @@
                                                         >Share</span
                                                     >
                                                 </div>
-                                                <div class="flex">
+                                                <div class="flex align-center">
                                                     <img
+                                                        class="size-[16px]"
                                                         src="./assets/img/pocket.svg"
                                                         alt=""
                                                     />
@@ -381,11 +386,15 @@
                                 <div
                                     class="w-[25%] ml-7 shrink-0 rounded-[4px] overflow-hidden"
                                 >
-                                    <img
-                                        class="h-full object-cover"
-                                        src="./assets/img/GalaxyF22.jpg"
-                                        alt=""
-                                    />
+                                    <a
+                                        href="https://ramin-aster-news-item.netlify.app/"
+                                    >
+                                        <img
+                                            class="h-full object-cover"
+                                            src="./assets/img/GalaxyF22.jpg"
+                                            alt=""
+                                        />
+                                    </a>
                                 </div>
                             </div>
 
@@ -447,10 +456,13 @@
                                                     >
                                                 </span>
                                                 <div
-                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                    class="text-[#0768B5] flex align-center gap-6"
                                                 >
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/share.svg"
                                                             alt=""
                                                         />
@@ -458,8 +470,11 @@
                                                             >Share</span
                                                         >
                                                     </div>
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/pocket.svg"
                                                             alt=""
                                                         />
@@ -528,10 +543,13 @@
                                                     >
                                                 </span>
                                                 <div
-                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                    class="text-[#0768B5] flex align-center gap-6"
                                                 >
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/share.svg"
                                                             alt=""
                                                         />
@@ -539,8 +557,11 @@
                                                             >Share</span
                                                         >
                                                     </div>
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/pocket.svg"
                                                             alt=""
                                                         />
@@ -601,10 +622,13 @@
                                                     >
                                                 </span>
                                                 <div
-                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                    class="text-[#0768B5] flex align-center gap-6"
                                                 >
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/share.svg"
                                                             alt=""
                                                         />
@@ -612,8 +636,11 @@
                                                             >Share</span
                                                         >
                                                     </div>
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/pocket.svg"
                                                             alt=""
                                                         />
@@ -683,10 +710,13 @@
                                                     >
                                                 </span>
                                                 <div
-                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                    class="text-[#0768B5] flex align-center gap-6"
                                                 >
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/share.svg"
                                                             alt=""
                                                         />
@@ -694,8 +724,11 @@
                                                             >Share</span
                                                         >
                                                     </div>
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/pocket.svg"
                                                             alt=""
                                                         />
@@ -764,10 +797,13 @@
                                                     >
                                                 </span>
                                                 <div
-                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                    class="text-[#0768B5] flex align-center gap-6"
                                                 >
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/share.svg"
                                                             alt=""
                                                         />
@@ -775,8 +811,11 @@
                                                             >Share</span
                                                         >
                                                     </div>
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/pocket.svg"
                                                             alt=""
                                                         />
@@ -846,10 +885,13 @@
                                                     >
                                                 </span>
                                                 <div
-                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                    class="text-[#0768B5] flex align-center gap-6"
                                                 >
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/share.svg"
                                                             alt=""
                                                         />
@@ -857,8 +899,11 @@
                                                             >Share</span
                                                         >
                                                     </div>
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/pocket.svg"
                                                             alt=""
                                                         />
@@ -1092,10 +1137,13 @@
                                                     >
                                                 </span>
                                                 <div
-                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                    class="text-[#0768B5] flex align-center gap-6"
                                                 >
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/share.svg"
                                                             alt=""
                                                         />
@@ -1103,8 +1151,11 @@
                                                             >Share</span
                                                         >
                                                     </div>
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/pocket.svg"
                                                             alt=""
                                                         />
@@ -1174,10 +1225,13 @@
                                                     >
                                                 </span>
                                                 <div
-                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                    class="text-[#0768B5] flex align-center gap-6"
                                                 >
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/share.svg"
                                                             alt=""
                                                         />
@@ -1185,8 +1239,11 @@
                                                             >Share</span
                                                         >
                                                     </div>
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/pocket.svg"
                                                             alt=""
                                                         />
@@ -1247,10 +1304,13 @@
                                                     >
                                                 </span>
                                                 <div
-                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                    class="text-[#0768B5] flex align-center gap-6"
                                                 >
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/share.svg"
                                                             alt=""
                                                         />
@@ -1258,8 +1318,11 @@
                                                             >Share</span
                                                         >
                                                     </div>
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/pocket.svg"
                                                             alt=""
                                                         />
@@ -1329,10 +1392,13 @@
                                                     >
                                                 </span>
                                                 <div
-                                                    class="text-[#0768B5] inline-block flex align-center gap-6"
+                                                    class="text-[#0768B5] flex align-center gap-6"
                                                 >
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/share.svg"
                                                             alt=""
                                                         />
@@ -1340,8 +1406,11 @@
                                                             >Share</span
                                                         >
                                                     </div>
-                                                    <div class="flex">
+                                                    <div
+                                                        class="flex align-center"
+                                                    >
                                                         <img
+                                                            class="size-[16px]"
                                                             src="./assets/img/pocket.svg"
                                                             alt=""
                                                         />
